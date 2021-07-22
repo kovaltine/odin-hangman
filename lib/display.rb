@@ -39,6 +39,7 @@ module Display
 
   def lost_game
     puts "\nSorry, you lost :(".colorize(:red).on_black.underline
+    puts "The word was: #{@word}"
   end
 
   def display_saved_end
